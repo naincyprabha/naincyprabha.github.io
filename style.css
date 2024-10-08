@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #4CAF50;
+    padding: 1rem;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+.navbar-nav a {
+    color: white;
+}
+.search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.deals-section {
+    background-color: #a2d49d;
+    padding: 20px;
+    text-align: center;
+}
+.deals-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.deals-section input {
+    padding: 10px;
+    width: 50%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.deals-section button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+.product-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+.product-card h5 {
+    margin: 15px 0;
+}
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+.footer a {
+    color: #4CAF50;
+    margin: 0 10px;
+    text-decoration: none;
+}
+/* Quantity button styling */
+.quantity-btn {
+background-color: #4CAF50; /* Green */
+color: white;
+border: none;
+padding: 5px 10px;
+margin: 0 5px;
+cursor: pointer;
+font-size: 14px;
+border-radius: 3px;
+}
+
+.quantity-btn:hover {
+background-color: #45a049;
+}
+
+/* Cart Item Styling */
+.cart-item {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 10px;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+/* Styling for the product name in the cart */
+.cart-item-name {
+flex: 1;
+text-align: center;
+margin: 0;
+padding: 0 10px;
+font-weight: bold;
+}
+
+/* Styling for the quantity display */
+.cart-quantity {
+padding: 0 10px;
+}
+
+/* Quantity button styling */
+.quantity-btn {
+background-color: #4CAF50; /* Green */
+color: white;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 3px;
+}
+
+.quantity-btn:hover {
+background-color: #45a049;
+}
+/* Search bar styling */
+#searchBar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Product list styling */
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .product p {
+    margin: 0;
+  }
+  
+  .product button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .product button:hover {
+    background-color: #45a049;
+  }
+  
+  /* No products found message */
+  #productList p {
+    font-style: italic;
+  }
+  
