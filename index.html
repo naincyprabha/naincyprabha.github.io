@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #4CAF50;
+            padding: 1rem;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: white;
+        }
+        .navbar-nav a {
+            color: white;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .deals-section {
+            background-color: #a2d49d;
+            padding: 20px;
+            text-align: center;
+        }
+        .deals-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .deals-section input {
+            padding: 10px;
+            width: 50%;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .deals-section button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+        }
+        .product-card img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+        .product-card h5 {
+            margin: 15px 0;
+        }
+        .footer {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #4CAF50;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">FRESH MART</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Deals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Promotions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New Products</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search here...">
+        </div>
+    </nav>
+
+    <!-- Deals Section -->
+    <div class="deals-section">
+        <h2>Don't miss our daily amazing deals.</h2>
+        <p>Save up to 60% on your orders.</p>
+        <input type="email" placeholder="Enter your email address">
+        <button>Subscribe</button>
+    </div>
+
+    <!-- Product Section -->
+    <div class="container">
+        <h3 class="text-center my-4">Explore</h3>
+        <div class="row">
+            <!-- Sample Product -->
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="https://th.bing.com/th/id/OSK.HEROLG29Y84MqwMyYSEbMwbKwW5WLnGz4Pgi70nCleb1l30?rs=1&pid=ImgDetMain" alt="Raddish">
+                    <h5>Raddish 500g</h5>
+                    <p>$3</p>
+                    <button class="btn btn-success">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="https://negativespace.co/wp-content/uploads/2018/12/negative-space-fresh-tomatoes-with-drops-of-water-1062x708.jpg" alt="Tomato">
+                    <h5>Tomato 500g</h5>
+                    <p>$5</p>
+                    <button class="btn btn-success">Add to cart</button>
+                </div>
+            </div>
+            <!-- Add more products similarly -->
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div>
+            <p>Location: Dehradun, Uttarakhand</p>
+            <p>Email: freshmart001@gmail.com</p>
+            <p>Phone: +91 7895879966</p>
+        </div>
+        <div>
+            <a href="#">Wishlist</a>
+            <a href="#">Cart</a>
+            <a href="#">Track Order</a>
+            <a href="#">Shipping Details</a>
+        </div>
+        <div>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Hot Deals</a>
+        </div>
+        <div>
+            <a href="#">Payments</a>
+            <a href="#">Refund</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
+
+</body>
+</html>
