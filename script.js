@@ -31,6 +31,12 @@ document.querySelector('.register-form').addEventListener('submit', function(eve
   var password = event.target.querySelector('input[placeholder="password"]').value;
   var email = event.target.querySelector('input[placeholder="email address"]').value;
 
+  var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  if (!emailPattern.test(email)) {
+    document.getElementById('message').innerText = "Please enter a valid email address.";
+    return; // Stop form submission
+  }
+
   // Get stored users from local storage
   var users = JSON.parse(localStorage.getItem('users')) || [];
 
