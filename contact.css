@@ -6,6 +6,7 @@ form {
 
 form label {
     margin: 10px 0 5px;
+    font-weight: bolder;
 }
 
 form input, form textarea {
